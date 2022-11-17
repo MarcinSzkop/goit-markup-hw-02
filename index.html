@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title>WebStudio - Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!--End Fonts-->
+
+    <link rel="stylesheet" href="./css/styles.css" />
     
 </head>
 
@@ -18,17 +19,18 @@
     <header>
         <!--Page Navigation-->
         <nav>
-            <a href="index.html"><span style="color:#2196F3">Web</span>Studio</a>
-            <ul>
+            <div class="logo"><a href="index.html"><span style="color:#2196F3">Web</span>Studio</a></div>
+            <ul class="menu">
                 <li><a href="#">Agencja</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Kontakt</a></li>
             </ul>
         </nav>
+        <!--End Page Navigation-->
         <aside>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+                <li class="nav-email"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="nav-tel"><a href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
         </aside>
     </header>
@@ -37,7 +39,7 @@
     <main>
         <section>
             <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button>Zamów usługe</button>
+            <button class="button-text" type="button">Zamów usługe</button>
         </section>
     
     <!--Articles section-->
@@ -90,8 +92,8 @@
                     <figure>
                         <img src="images/img1.jpg" alt="John Doe 1" width="270" height="260" />
                         <figcaption>
-                            <span>John Doe 1</span>
-                            <span>Product Desinger</span>
+                            <span class="name-team">John Doe 1</span>
+                            <span class="postion-team">Product Desinger</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -102,8 +104,8 @@
                     <figure>
                         <img src="images/img2.jpg" alt="John Doe 2" width="270" height="260" />
                         <figcaption>   
-                            <span>John Doe 2</span>
-                            <span>Frontend Developer</span>
+                            <span class="name-team">John Doe 2</span>
+                            <span class="postion-team">Frontend Developer</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -114,8 +116,8 @@
                     <figure>
                         <img src="images/img3.jpg" alt="John Doe 3" width="270" height="260" />
                         <figcaption>
-                            <span>John Doe 3</span>
-                            <span>Marketing</span>
+                            <span class="name-team">John Doe 3</span>
+                            <span class="postion-team">Marketing</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -126,8 +128,8 @@
                     <figure>
                         <img src="images/img4.jpg" alt="John Doe 4" width="270" height="260" />
                         <figcaption>
-                            <span>John Doe 4</span>
-                            <span>UI Designer</span>
+                            <span class="name-team">John Doe 4</span>
+                            <span class="postion-team">UI Designer</span>
                         </figcaption>
                     </figure>
                 </li>
@@ -137,9 +139,9 @@
 
     <!--Page footer-->
     <footer>
-        <a href="index.html"><span>Web</span>Studio</a>
-        <address>
-            <span>Warszawa, Aleje Jerozolimskie 21</span>
+        <a href="index.html"><div class="footer-logo"><span style="color:#2196F3">Web</span>Studio</a></div>
+        <address class="adress">
+            <span class="footer-adress"><a href="https://goo.gl/maps/cexEDxkeDW6zovho7" target="_blank">Warszawa, Aleje Jerozolimskie 21</a></span>
             <a href="mailto:info@example.com">info@example.com</a>
             <a href="tel:+48111111111">+48 111 111 111</a>
         </address>
