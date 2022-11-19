@@ -16,7 +16,6 @@ a:hover{
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     color: black;
@@ -28,7 +27,6 @@ a:hover{
 
 .menu {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
@@ -36,21 +34,15 @@ a:hover{
 
 .nav-email {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: #757575;
 }
 
 .nav-tel {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: #757575;
 }
 
@@ -60,7 +52,6 @@ a:hover{
 
 h1 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -72,7 +63,6 @@ h1 {
 
 h2 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -83,7 +73,6 @@ h2 {
 
 h3 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -94,11 +83,8 @@ h3 {
 
 p {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -108,7 +94,6 @@ p {
 
 .button-text {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -125,23 +110,15 @@ p {
 
 .name-team {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;
 }
 
 .postion-team {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -151,7 +128,6 @@ p {
 
 .name-porfolio {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     color: #212121;
@@ -159,7 +135,6 @@ p {
 
 .subname-portfolio {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #757575;
@@ -171,31 +146,22 @@ p {
 
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .footer-adress {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .address {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
