@@ -22,6 +22,10 @@ a:hover{
     color: black;
 }
 
+.logo-web {
+    color: #2196F3;
+}
+
 .menu {
     font-family: 'Roboto';
     font-style: normal;
