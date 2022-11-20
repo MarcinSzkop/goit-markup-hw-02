@@ -1,99 +1,22 @@
-/* Values for links */
+/* Body Styles */
 
-a{
-	color: #212121;
-	text-decoration: none;
-    cursor: pointer;
-}
-
-a:hover{
-	color: #2196F3;
-}
-
-/* End Values for links */
-
-/* Logo, navigation end contact section */
-
-.logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    color: black;
-}
-
-.logo-web {
-    color: #2196F3;
-}
-
-.menu {
+.body {
     font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    color: #212121;
+    font-style: normal;
 }
-
-.nav-email {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    color: #757575;
-}
-
-.nav-tel {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    color: #757575;
-}
-
-/* End Logo, navigation end contact section */
-
-/* Styles for sections h1,h2,h3, p */
-
-h1 {
-    font-family: 'Roboto';
+  
+.body h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
-h2 {
-    font-family: 'Roboto';
+.body h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
 }
 
-h3 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
-p {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    color: #757575;
-}
-
-/* End styles for sections h1,h2,h3, p */
-
-/* Button Order a service */
-
-.button-text {
-    font-family: 'Roboto';
+.button-order-service {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -102,68 +25,154 @@ p {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background: #2196F3;
 }
 
-/* End button Order a service */
+/* Logo & Navigation */
 
-/* Team section style */
+.navigation {
+    font-family: 'Raleway';
+    font-weight: 700px;
+    font-size: 26px;
+}
 
-.name-team {
+.navigation a {
+    text-decoration: none;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.menu {
+    list-style: none;
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: #212121;
+}
+
+.menu a{
+    color: #212121; 
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a:hover{
+	color: #2196F3;
+}
+
+.navigation-contact {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575; 
+}
+
+.navigation-contact a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.navigation-contact a:hover{
+    color: #2196F3;
+}
+
+/* Articles */
+
+.articles { 
+    list-style: none;
+    font-family: 'Roboto';
+  }
+  
+  .articles h3 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #212121;
+  }
+  
+  .articles p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}
+
+/* Section - What We Do */
+
+.what-we-do {
+    list-style: none;
+}
+
+/* Section - Out team */
+
+.our-team {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+}
+
+.name-team {
+    color: #212121;
+
 }
 
 .postion-team {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
     color: #757575;
 }
 
-/* End Team section style */
+/* Footer */
 
-/* Portfolio */
-
-.name-porfolio {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 18px;
-    color: #212121;
-}
-
-.subname-portfolio {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    color: #757575;
-}
-
-/* End Portfolio */
-
-/* Footer style */
-
-.footer-logo {
+.footer {
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-logo-studio {
     color: #FFFFFF;
 }
 
-.footer-adress {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFFFFF;
+.footer-logo-web {
+    color: #2196F3;
 }
 
 .address {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer-adress {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-adress a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-contact {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* End Footer style */
-
+.footer-contact a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
