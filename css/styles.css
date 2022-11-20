@@ -1,22 +1,18 @@
-/* Body Styles */
+/* Slider */
 
-.body {
+.slider {
     font-family: 'Roboto';
     font-style: normal;
 }
-  
-.body h1 {
+
+.slider h1 {
     font-weight: 900;
     font-size: 44px;
     color: #FFFFFF;
+    background: #2F303A;
 }
 
-.body h2 {
-    font-weight: 700;
-    font-size: 36px;
-}
-
-.button-order-service {
+.slider-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -24,11 +20,13 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 30px;
     border: none;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
 }
 
 /* Logo & Navigation */
@@ -89,18 +87,22 @@
 
 /* Articles */
 
-.articles { 
-    list-style: none;
+.articles-section {
     font-family: 'Roboto';
+    font-style: normal;
+}
+
+.articles-section-list { 
+    list-style: none;
   }
   
-  .articles h3 {
+  .articles-section h3 {
     font-weight: 700;
     font-size: 14px;
     color: #212121;
   }
   
-  .articles p {
+  .articles-section p {
     font-weight: 400;
     font-size: 14px;
     color: #757575;
@@ -109,24 +111,43 @@
 /* Section - What We Do */
 
 .what-we-do {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.what-we-do-list {
     list-style: none;
+}
+
+.what-we-do h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
 }
 
 /* Section - Out team */
 
-.our-team {
-    list-style: none;
+.our-team-section {
     font-family: 'Roboto';
     font-style: normal;
+}
+
+.our-team-section h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+.our-team-section-list {
+    list-style: none;
     font-size: 16px;
 }
 
-.name-team {
+.our-team-section-name {
     color: #212121;
-
 }
 
-.postion-team {
+.our-team-section-postion {
     color: #757575;
 }
 
@@ -190,6 +211,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    background: #2F303A;
 }
 
 .footer a {
