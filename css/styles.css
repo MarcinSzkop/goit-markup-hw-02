@@ -1,18 +1,112 @@
+:root {
+    --primary-color: #2196f3;
+    --secundary-color: #757575;
+    --tertiary-color: #212121;
+    --quaternary-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* HEADER */
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-right: 93px;
+    padding: 24px 0 25px;
+}
+
+.black-studio {
+    color: #000;
+}
+
+.white-studio {
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--tertiary-color);
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.nav-contact-email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-contact-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.menu a {
+    color: var(--tertiary-color); 
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a:hover,
+.menu a:focus {
+	color: var(--primary-color);
+}
+
+.navigation-contact {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--secundary-color);
+}
+
+.navigation-contact a {
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+
+.navigation-contact a:hover,
+.navigation-contact a:focus {
+    color: var(--primary-color);
+}
+
 /* Slider */
 
+.dark-bg {
+    background: #2f303a;
+}
+
 .slider {
-    font-family: 'Roboto';
-    font-style: normal;
 }
 
 .slider h1 {
     font-weight: 900;
     font-size: 44px;
-    color: #FFFFFF;
+    color: var(--quaternary-color);
     background: #2F303A;
 }
 
-.slider-button {
+.slider button {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -22,90 +116,29 @@
     letter-spacing: 0.06em;
     cursor: pointer;
     border-radius: 4px;
-    line-height: 30px;
     border: none;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--quaternary-color);
+    background: var(--primary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-/* Logo & Navigation */
-
-.navigation {
-    font-family: 'Raleway';
-    font-weight: 700px;
-    font-size: 26px;
-}
-
-.navigation a {
-    text-decoration: none;
-}
-
-.logo-studio {
-    color: #000000;
-}
-
-.logo-web {
-    color: #2196F3;
-}
-
-.menu {
-    list-style: none;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    color: #212121;
-}
-
-.menu a{
-    color: #212121; 
-	text-decoration: none;
-    cursor: pointer;
-}
-
-.menu a:hover{
-	color: #2196F3;
-}
-
-.navigation-contact {
-    list-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    color: #757575; 
-}
-
-.navigation-contact a {
-    text-decoration: none;
-    color: #757575;
-}
-
-.navigation-contact a:hover{
-    color: #2196F3;
 }
 
 /* Articles */
 
-.articles-section {
-    font-family: 'Roboto';
-    font-style: normal;
+.articles {
 }
 
-.articles-section-list { 
-    list-style: none;
-  }
-  
-  .articles-section h3 {
+.articles h3 {
     font-weight: 700;
     font-size: 14px;
-    color: #212121;
+    color: var(--tertiary-color);
+    text-transform: uppercase;
   }
   
-  .articles-section p {
-    font-weight: 400;
+.articles-section p {
     font-size: 14px;
-    color: #757575;
+    color: var(--secundary-color);
+    letter-spacing: 0.03em;
+    line-height: 24px;
 }
 
 /* Section - What We Do */
@@ -122,10 +155,14 @@
 .what-we-do h2 {
     font-weight: 700;
     font-size: 36px;
-    color: #212121;
+    color: var(--tertiary-color);
 }
 
 /* Section - Out team */
+
+.our-team-section-bg {
+    background: #f5f4fa;
+}
 
 .our-team-section {
     font-family: 'Roboto';
@@ -135,7 +172,7 @@
 .our-team-section h2 {
     font-weight: 700;
     font-size: 36px;
-    color: #212121;
+    color: var(--tertiary-color);
 }
 
 .our-team-section-list {
@@ -143,18 +180,24 @@
     font-size: 16px;
 }
 
-.our-team-section-name {
-    color: #212121;
+.our-team-section-list h3 {
+    font-weight: 500;
+    font-size: 16px;
 }
 
-.our-team-section-postion {
-    color: #757575;
+.our-team-section-list p {
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* Section - Portfolio menu */
 
 .portfolio-menu {
     list-style: none;
+}
+
+.portfolio-menu a {
+    text-decoration: none;
 }
 
 .button-portfolio {
@@ -165,7 +208,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #212121;
+    color: var(--tertiary-color);
     cursor: pointer;
     border-radius: 4px;
     border: none;
@@ -175,13 +218,9 @@
 }
   
 .button-portfolio:hover {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.portfolio-menu a {
-    text-decoration: none;
 }
 
 /* Section - Portfolio */
@@ -200,13 +239,13 @@
 .portfolio-name {
     font-weight: 700;
     font-size: 18px;
-    color: #212121;
+    color: var(--tertiary-color);
 }
 
 .potfolio-subname {
     font-weight: 400;
     font-size: 16px;
-    color: #757575;
+    color: var(--secundary-color);
 }
 
 /* Footer */
@@ -223,16 +262,7 @@
     text-decoration: none;
 }
 
-.footer-logo-studio {
-    color: #FFFFFF;
-}
-
-.footer-logo-web {
-    color: #2196F3;
-}
-
 .address {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -243,12 +273,12 @@
 
 .footer-adress {
     font-weight: bold;
-    color: #FFFFFF;
+    color: var(--quaternary-color);
 }
 
 .footer-adress a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--quaternary-color);
 }
 
 .footer-contact {
@@ -260,6 +290,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact:hover {
-    color: #2196F3;
+.footer a:hover,
+.footer a:focus {
+    color: var(--primary-color);
 }
